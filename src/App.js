@@ -1,11 +1,12 @@
-import AboutPage from './pages/About';
-import HomePage from './pages/Home';
+import Form from './pages/Form';
+import Container from './components/Container';
 
 function App() {
   return (
     <div className='App'>
-      <HomePage />
-      {/* <AboutPage /> */}
+      <Container>
+        <Form />
+      </Container>
     </div>
   );
 }
